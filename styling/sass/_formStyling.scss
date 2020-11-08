@@ -1,0 +1,27 @@
+.inside-form {
+    display: grid;
+    // width: 20px;
+    margin: 2rem 6rem;
+    margin-top: 4rem;
+    .text-box {
+        padding: 1rem;
+    }
+    .submit-button {
+        padding: 1rem;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        transition-duration: 0.2s;
+    }
+    .submit-button:hover {
+        background-color: $primary-color;
+        transition-duration: 0.2s;
+        border: $primary-color solid;
+        transform: scale(0.95);
+    }
+}
+
+.form-div {
+    p {
+        text-align: center;
+    }
+}

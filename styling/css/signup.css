@@ -1,0 +1,183 @@
+.inside-form {
+  display: grid;
+  margin: 2rem 6rem;
+  margin-top: 4rem;
+}
+
+.inside-form .text-box {
+  padding: 1rem;
+}
+
+.inside-form .submit-button {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.inside-form .submit-button:hover {
+  background-color: #291867;
+  transition-duration: 0.2s;
+  border: #291867 solid;
+  transform: scale(0.95);
+}
+
+.form-div p {
+  text-align: center;
+}
+
+@media (max-width: 70rem) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  .body {
+    background-color: #291867;
+  }
+  .full-screen .container {
+    text-align: center;
+    display: block;
+    align-items: center;
+    align-self: center;
+  }
+  .full-screen .container .nav-bar {
+    all: unset;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: block;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .full-screen .container .nav-bar .logo {
+    width: 20%;
+    display: none;
+    margin: auto;
+  }
+  .full-screen .container .nav-bar .h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .full-screen .container .nav-bar .nav-list {
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+  }
+  .full-screen .container .nav-bar .nav-list .li {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .full-screen .container .nav-bar .nav-list .li .a-text {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .full-screen .container .box {
+    display: block;
+    background-color: #291867;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+  }
+  .full-screen .container .box .welimg {
+    display: none;
+  }
+  .full-screen .container .box .form-div {
+    background-color: #291867;
+    display: block;
+    margin: auto;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+    align-items: center;
+    align-self: center;
+  }
+  .full-screen .container .box .form-div .login-form {
+    background-color: #291867;
+    display: block;
+    margin: auto;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+    align-items: center;
+    align-self: center;
+  }
+  .full-screen .container .box .form-div .p_ {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #190e3e;
+}
+
+.nav-bar {
+  display: grid;
+  grid-template-columns: .1fr .6fr .3fr;
+  padding: 2rem 15rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-bar img {
+  width: 50%;
+  margin-left: 5rem;
+}
+
+.nav-bar h1 {
+  color: white;
+  margin: 0rem 2rem;
+  font-size: 30px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  margin: 0rem 5rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.nav-bar a:hover {
+  background-color: white;
+  padding: 0.6rem;
+  color: #291867;
+  transition-duration: 0.2s;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  margin: 6rem 15rem;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+.box .form-div .p_ {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (max-width: 1650px) {
+  img {
+    display: none;
+  }
+}
