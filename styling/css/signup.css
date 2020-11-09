@@ -125,6 +125,10 @@
   }
 }
 
+.error-box {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 .error-style {
   display: block;
   margin: 10px 0px;
