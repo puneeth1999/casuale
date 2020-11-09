@@ -130,7 +130,7 @@ body {
 }
 
 .nav-bar img {
-  width: 50%;
+  width: 30%;
   margin-left: 5rem;
 }
 
@@ -170,6 +170,11 @@ img {
   background-color: white;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
+  transition-duration: 0.3s;
+}
+
+.box .submit-button {
+  margin-top: 1rem;
 }
 
 .box .form-div .p_ {
