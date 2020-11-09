@@ -34,6 +34,5 @@ btn.addEventListener('click', (e) => {
         // setTimeout(() => error_msg.remove(), 3000); //This is making JS lose the reference.
         setTimeout(() => error_msg.classList.add('removeerrormsg'), 3000);
         setTimeout(() => p_text.classList.remove('p_invisible'), 3000);
-
     }
 });
