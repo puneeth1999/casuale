@@ -9,6 +9,7 @@ btn.addEventListener('click', (e) => {
     const username = document.querySelector('#username');
     const email = document.querySelector('#email');
     const pass = document.querySelector('#password');
+    const cpass = document.querySelector('#c-password');
     const p_text = document.querySelector('.p_');
 
     //condtional statements username length, username already exists, password length, password weak, email regex, email authentication, email already registered.
@@ -98,15 +99,54 @@ btn.addEventListener('click', (e) => {
                 setTimeout(() => error_msg.classList.add('removeerrormsg'), 3000);
                 setTimeout(() => p_text.classList.remove('p_invisible'), 3000);
                 break;
-
-
             case 3:
+                level = 3;
+                console.log(3);
+                console.log('Your password must contain 1 lower-case, 1 upper-case, 1 numeric and 1 special character');
+                error_msg = document.querySelector('.error-box');
+                error_msg.classList.add('error-style');
+                error_msg.innerHTML = 'Your password must contain 1 lower-case, 1 upper-case, 1 numeric and 1 special character';
+                try {
+                    error_msg.classList.remove('removeerrormsg');
+                } catch {
+                    pass;
+                }
+                p_text.classList.add('p_invisible');
+                error_form = document.querySelector('.form-div');
+                error_form.classList.add('error-form-div');
+                setTimeout(() => error_msg.classList.add('removeerrormsg'), 3000);
+                setTimeout(() => p_text.classList.remove('p_invisible'), 3000);
+                break;
+
+
+            case 4:
                 level = 4;
                 console.log(4);
                 console.log('Your password is strong');
                 break;
             default:
-                console.log('nope');
+                console.log('invalid password sequence!');
+        }
+        if (strength > 3) {
+            if (cpass.value != pass.value) {
+                console.log('Passwords don\'t match');
+                error_msg = document.querySelector('.error-box');
+                error_msg.classList.add('error-style');
+                error_msg.innerHTML = 'Passwords don\'t match';
+                try {
+                    error_msg.classList.remove('removeerrormsg');
+                } catch {
+                    pass;
+                }
+                p_text.classList.add('p_invisible');
+                error_form = document.querySelector('.form-div');
+                error_form.classList.add('error-form-div');
+                setTimeout(() => error_msg.classList.add('removeerrormsg'), 3000);
+                setTimeout(() => p_text.classList.remove('p_invisible'), 3000);
+            } else {
+                console.log('passwords match');
+            }
         }
     }
+
 });
