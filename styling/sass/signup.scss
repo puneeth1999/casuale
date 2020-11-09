@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'formStyling';
 @import'mobile';
+@import 'errors';
 * {
     box-sizing: border-box;
     padding: 0%;
@@ -56,17 +57,23 @@ img {
     // opacity: 0.5;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
+    transition-duration: 0.3s;
     .submit-button {
         margin-top: 1rem;
+        transition-duration: 0.3s;
     }
     .form-div {
+        margin-top: 2rem;
+        transition-duration: 0.3s;
         .p_ {
             font-family: $font-stack;
+            transition-duration: 0.3s;
         }
         .login-form {
             .submit-button:active {
                 background-color: white;
                 color: black;
+                transition-duration: 0.1s;
             }
         }
     }

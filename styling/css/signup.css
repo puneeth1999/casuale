@@ -125,6 +125,31 @@
   }
 }
 
+.error-style {
+  display: block;
+  margin: 10px 0px;
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #e28686;
+  transition-duration: 0.3s;
+}
+
+.error-form-div {
+  padding-top: 0rem;
+  margin-top: 0rem;
+  transition-duration: 0.3s;
+}
+
+.p_invisible {
+  display: none;
+  transition-duration: 0.3s;
+}
+
+.removeerrormsg {
+  display: none;
+  transition-duration: 0.3s;
+}
+
 * {
   box-sizing: border-box;
   padding: 0%;
@@ -184,19 +209,28 @@ img {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
   transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .box .submit-button {
   margin-top: 1rem;
+  transition-duration: 0.3s;
+}
+
+.box .form-div {
+  margin-top: 2rem;
+  transition-duration: 0.3s;
 }
 
 .box .form-div .p_ {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  transition-duration: 0.3s;
 }
 
 .box .form-div .login-form .submit-button:active {
   background-color: white;
   color: black;
+  transition-duration: 0.1s;
 }
 
 @media (max-width: 1650px) {
