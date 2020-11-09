@@ -106,8 +106,21 @@
     align-items: center;
     align-self: center;
   }
+  .full-screen .container .box .form-div .login-form .submit-button {
+    border: black;
+  }
+  .full-screen .container .box .form-div .login-form .submit-button:hover {
+    background-color: black;
+  }
+  .full-screen .container .box .form-div .login-form .submit-button:active {
+    background-color: white;
+    color: black;
+  }
   .full-screen .container .box .form-div .p_ {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+  }
+  .full-screen .container .box .form-div .p_ .p_a {
     color: white;
   }
 }
@@ -179,6 +192,11 @@ img {
 
 .box .form-div .p_ {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box .form-div .login-form .submit-button:active {
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 1650px) {
