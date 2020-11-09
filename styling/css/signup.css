@@ -209,7 +209,6 @@ img {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
   transition-duration: 0.3s;
-  transition-duration: 0.3s;
 }
 
 .box .submit-button {
