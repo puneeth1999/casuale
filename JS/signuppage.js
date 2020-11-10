@@ -2,7 +2,7 @@ console.log('JS script working');
 
 let btn = document.querySelector('.submit-button');
 
-//FORM VALIDATION
+//* FORM VALIDATION
 btn.addEventListener('click', (e) => {
     e.preventDefault();
     // console.log('you clicked submit');
@@ -11,11 +11,9 @@ btn.addEventListener('click', (e) => {
     const pass = document.querySelector('#password');
     const cpass = document.querySelector('#c-password');
     const p_text = document.querySelector('.p_');
-
-    //condtional statements username length, username already exists, password length, password weak, email regex, email authentication, email already registered.
-    // in the front end, don't look into stuff like username already exists, email authentication, email already registered using js.
-
-    //USERNAME-LENGTH
+    /*condtional statements username length, username already exists, password length, password weak, email regex, email authentication, email already registered.
+    In the front end, don't look into stuff like username already exists, email authentication, email already registered using js.*/
+    //* USERNAME-LENGTH
     if (username.value.length <= 3) {
         const error_msg = document.querySelector('.error-box');
         error_msg.classList.add('error-style');
@@ -33,8 +31,7 @@ btn.addEventListener('click', (e) => {
         setTimeout(() => error_msg.classList.add('removeerrormsg'), 3000);
         setTimeout(() => p_text.classList.remove('p_invisible'), 3000);
     }
-
-    //PASSWORD-LENGTH
+    //*PASSWORD-LENGTH
     else if (pass.value.length <= 5) {
         console.log('password is too short');
         const error_msg = document.querySelector('.error-box');
@@ -80,7 +77,6 @@ btn.addEventListener('click', (e) => {
                 setTimeout(() => error_msg.classList.add('removeerrormsg'), 3000);
                 setTimeout(() => p_text.classList.remove('p_invisible'), 3000);
                 break;
-
             case 2:
                 level = 2;
                 console.log(2);
@@ -117,8 +113,6 @@ btn.addEventListener('click', (e) => {
                 setTimeout(() => error_msg.classList.add('removeerrormsg'), 3000);
                 setTimeout(() => p_text.classList.remove('p_invisible'), 3000);
                 break;
-
-
             case 4:
                 level = 4;
                 console.log(4);
@@ -127,6 +121,7 @@ btn.addEventListener('click', (e) => {
             default:
                 console.log('invalid password sequence!');
         }
+        //* CONFIRM PASSWORD MATCH
         if (strength > 3) {
             if (cpass.value != pass.value) {
                 console.log('Passwords don\'t match');
@@ -148,5 +143,4 @@ btn.addEventListener('click', (e) => {
             }
         }
     }
-
 });
