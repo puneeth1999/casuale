@@ -1,0 +1,38 @@
+.nav-bar {
+    display: grid;
+    grid-template-columns: .1fr .6fr .3fr;
+    padding: 2rem 15rem;
+    font-family: $font-stack;
+    img {
+        width: 30%;
+        margin-left: 5rem;
+    }
+    h1 {
+        color: white;
+        margin: 0rem 2rem;
+        font-size: 30px;
+    }
+    ul {
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 0.35fr 0.5fr 0.4fr;
+        margin: 0rem 5rem;
+        margin-right: 2rem;
+    }
+    li {
+        margin-top: 0.5rem;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        transition-duration: 0.2s;
+        // margin: 0rem 1rem;
+        // margin-top: 5rem;
+    }
+    a:hover {
+        background-color: white;
+        padding: 0.6rem;
+        color: $primary-color;
+        transition-duration: 0.2s;
+    }
+}

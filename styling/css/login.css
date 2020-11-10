@@ -170,7 +170,7 @@
 
 .nav-bar {
   display: grid;
-  grid-template-columns: .1fr .6fr .3fr;
+  grid-template-columns: .1fr .5fr .4fr;
   padding: 2rem 15rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -191,7 +191,6 @@
   display: grid;
   grid-template-columns: 0.35fr 0.5fr 0.4fr;
   margin: 0rem 5rem;
-  margin-right: 2rem;
 }
 
 .nav-bar li {
@@ -234,15 +233,12 @@ img {
   transition-duration: 0.3s;
 }
 
-.box .submit-button {
-  margin-top: 1rem;
-  background-color: black;
+.box .login-button {
+  margin-top: 0rem;
   transition-duration: 0.3s;
-  padding: 1rem;
-  color: white;
 }
 
-.box .submit-button:hover {
+.box .login-button:hover {
   background-color: #291867;
   color: white;
   transition-duration: 0.2s;
@@ -250,7 +246,7 @@ img {
 }
 
 .box .form-div {
-  margin-top: 1.5rem;
+  margin-top: 5rem;
   transition-duration: 0.3s;
 }
 
@@ -259,7 +255,7 @@ img {
   transition-duration: 0.3s;
 }
 
-.box .form-div .login-form .submit-button:active {
+.box .form-div .login-form .login-button:active {
   background-color: white;
   color: black;
   transition-duration: 0.1s;

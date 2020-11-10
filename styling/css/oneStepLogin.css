@@ -1,6 +1,6 @@
 .nav-bar {
   display: grid;
-  grid-template-columns: .1fr .6fr .3fr;
+  grid-template-columns: .1fr .5fr .4fr;
   padding: 2rem 15rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -19,7 +19,7 @@
 .nav-bar ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
+  grid-template-columns: 0.35fr 0.5fr 0.4fr;
   margin: 0rem 5rem;
 }
 
@@ -44,7 +44,6 @@
   text-decoration: none;
   color: white;
   transition-duration: 0.2s;
-  margin: 3.5rem;
 }
 
 .a-special:hover {
@@ -65,14 +64,14 @@
   padding: 1rem;
 }
 
-.inside-form .submit-button {
+.inside-form .login-button {
   padding: 1rem;
   background-color: black;
   color: white;
   transition-duration: 0.2s;
 }
 
-.inside-form .submit-button:hover {
+.inside-form .login-button:hover {
   background-color: #291867;
   transition-duration: 0.2s;
   border: #291867 solid;
@@ -87,7 +86,6 @@
   text-decoration: none;
   color: white;
   transition-duration: 0.2s;
-  margin: 3.5rem;
 }
 
 .a-special:hover {
@@ -98,7 +96,7 @@
   transform: scale(0.15);
 }
 
-@media (max-width: 70rem) {
+@media (max-width: 60rem) {
   * {
     margin: 0px;
     padding: 0px;
@@ -188,7 +186,7 @@
     background-color: none;
   }
   body .full-screen .container .box-log-sign .inner-box-log-sign .inner-box-log-sign-ul {
-    background-color: none;
+    background: none;
     display: block;
   }
   body .full-screen .container .box-log-sign .inner-box-log-sign .inner-box-log-sign-ul .inner-box-log-sign-ul-inner-div {
@@ -229,32 +227,51 @@ body {
 
 .inside-form .submit-button {
   border: solid white 2px;
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  transition-duration: 0.2s;
 }
 
 .inside-form .submit-button:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-color: white;
   transition-duration: 0.2s;
-  border: #291867;
-  transform: scale(0.95);
+  transform: scale(0.98);
 }
 
 .box-log-sign {
-  width: 40%;
-  margin: auto;
+  width: 44.5%;
+  margin: 0px auto;
 }
 
 .box-log-sign .inner-box-log-sign .inner-box-log-sign-ul {
+  background-color: rgba(255, 255, 255, 0.4);
   list-style-type: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  width: 90%;
+  margin: 0px auto;
 }
 
 .box-log-sign #item1 {
-  background-color: rgba(255, 255, 255, 0.4);
-  padding: 2rem 6.2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  padding: 3rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-right: rgba(0, 0, 0, 0.3) 2px solid;
 }
 
 .box-log-sign #item2 {
-  background-color: rgba(255, 255, 255, 0.4);
-  padding: 2rem 6.2rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  padding: 3rem;
+  text-align: center;
+  display: block;
+  margin: auto;
+  border-left: rgba(0, 0, 0, 0.03) 2px solid;
 }

@@ -1,6 +1,6 @@
 .nav-bar {
     display: grid;
-    grid-template-columns: .1fr .6fr .3fr;
+    grid-template-columns: .1fr .5fr .4fr;
     padding: 2rem 15rem;
     font-family: $font-stack;
     img {
@@ -15,7 +15,7 @@
     ul {
         list-style-type: none;
         display: grid;
-        grid-template-columns: repeat(2, .5fr);
+        grid-template-columns: 0.35fr 0.5fr 0.4fr;
         margin: 0rem 5rem;
     }
     li {

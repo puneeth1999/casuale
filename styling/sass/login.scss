@@ -2,7 +2,7 @@
 @import 'formStyling';
 @import'mobile';
 @import 'errors';
-@import 'navbarsignup';
+@import 'navbarlogin';
 * {
     box-sizing: border-box;
     padding: 0%;
@@ -25,28 +25,27 @@ img {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     transition-duration: 0.3s;
-    .submit-button {
-        margin-top: 1rem;
-        background-color: black;
+    .login-button {
+        margin-top: 0rem;
         transition-duration: 0.3s;
-        padding: 1rem;
-        color: white;
     }
-    .submit-button:hover {
+    .login-button:hover {
         background-color: $primary-color;
         color: white;
         transition-duration: 0.2s;
         transform: scale(0.98);
+        // transform: scaley(0.90);
+        // margin-bottom: 0rem;
     }
     .form-div {
-        margin-top: 1.5rem;
+        margin-top: 5rem;
         transition-duration: 0.3s;
         .p_ {
             font-family: $font-stack;
             transition-duration: 0.3s;
         }
         .login-form {
-            .submit-button:active {
+            .login-button:active {
                 background-color: white;
                 color: black;
                 transition-duration: 0.1s;
