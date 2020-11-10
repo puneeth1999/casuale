@@ -1,6 +1,6 @@
 .nav-bar {
   display: grid;
-  grid-template-columns: .1fr .5fr .4fr;
+  grid-template-columns: .1fr .6fr .3fr;
   padding: 2rem 15rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -21,6 +21,7 @@
   display: grid;
   grid-template-columns: 0.35fr 0.5fr 0.4fr;
   margin: 0rem 5rem;
+  margin-right: 2rem;
 }
 
 .nav-bar li {
@@ -246,7 +247,7 @@ body {
 }
 
 .box-log-sign .inner-box-log-sign .inner-box-log-sign-ul {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   list-style-type: none;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
