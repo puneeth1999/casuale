@@ -1,0 +1,13 @@
+.a-special {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.2s;
+    margin: 3.5rem;
+    &:hover {
+        background-color: white;
+        padding: 0.5rem;
+        color: $primary-color;
+        transition-duration: 0.2s;
+        transform: scale(0.15);
+    }
+}

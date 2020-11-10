@@ -1,3 +1,18 @@
+.a-special {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+  margin: 3.5rem;
+}
+
+.a-special:hover {
+  background-color: white;
+  padding: 0.5rem;
+  color: #291867;
+  transition-duration: 0.2s;
+  transform: scale(0.15);
+}
+
 .inside-form {
   display: grid;
   margin: 2rem 6rem;
@@ -154,16 +169,6 @@
   transition-duration: 0.3s;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0%;
-  margin: 0%;
-}
-
-body {
-  background-color: #190e3e;
-}
-
 .nav-bar {
   display: grid;
   grid-template-columns: .1fr .6fr .3fr;
@@ -189,6 +194,10 @@ body {
   margin: 0rem 5rem;
 }
 
+.nav-bar li {
+  margin-top: 0.5rem;
+}
+
 .nav-bar a {
   text-decoration: none;
   color: white;
@@ -200,6 +209,16 @@ body {
   padding: 0.6rem;
   color: #291867;
   transition-duration: 0.2s;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #190e3e;
 }
 
 img {

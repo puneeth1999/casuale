@@ -1,0 +1,260 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: .1fr .6fr .3fr;
+  padding: 2rem 15rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-bar img {
+  width: 30%;
+  margin-left: 5rem;
+}
+
+.nav-bar h1 {
+  color: white;
+  margin: 0rem 2rem;
+  font-size: 30px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+  margin: 0rem 5rem;
+}
+
+.nav-bar li {
+  margin-top: 0.5rem;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.nav-bar a:hover {
+  background-color: white;
+  padding: 0.6rem;
+  color: #291867;
+  transition-duration: 0.2s;
+}
+
+.a-special {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+  margin: 3.5rem;
+}
+
+.a-special:hover {
+  background-color: white;
+  padding: 0.5rem;
+  color: #291867;
+  transition-duration: 0.2s;
+  transform: scale(0.15);
+}
+
+.inside-form {
+  display: grid;
+  margin: 2rem 6rem;
+  margin-top: 4rem;
+}
+
+.inside-form .text-box {
+  padding: 1rem;
+}
+
+.inside-form .submit-button {
+  padding: 1rem;
+  background-color: black;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.inside-form .submit-button:hover {
+  background-color: #291867;
+  transition-duration: 0.2s;
+  border: #291867 solid;
+  transform: scale(0.95);
+}
+
+.form-div p {
+  text-align: center;
+}
+
+.a-special {
+  text-decoration: none;
+  color: white;
+  transition-duration: 0.2s;
+  margin: 3.5rem;
+}
+
+.a-special:hover {
+  background-color: white;
+  padding: 0.5rem;
+  color: #291867;
+  transition-duration: 0.2s;
+  transform: scale(0.15);
+}
+
+@media (max-width: 70rem) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    background-color: none;
+  }
+  body .full-screen {
+    background-color: none;
+  }
+  body .full-screen .container {
+    background-color: none;
+    text-align: center;
+    display: block;
+    align-items: center;
+    align-self: center;
+  }
+  body .full-screen .container .nav-bar {
+    all: unset;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    display: block;
+    margin: auto;
+    align-items: center;
+    align-self: center;
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  body .full-screen .container .nav-bar .logo {
+    width: 20%;
+    display: none;
+    margin: auto;
+  }
+  body .full-screen .container .nav-bar .h1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  body .full-screen .container .nav-bar .nav-list {
+    display: block;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+  }
+  body .full-screen .container .nav-bar .nav-list .li {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  body .full-screen .container .nav-bar .nav-list .li .a-text {
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+  }
+  body .full-screen .container .box-log-sign {
+    background-color: none;
+  }
+  body .full-screen .container .box-log-sign * {
+    background-color: none;
+  }
+  body .full-screen .container .box-log-sign #item1 {
+    background: none;
+    margin: 0rem;
+    margin-bottom: 2rem;
+    padding: 0rem;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  body .full-screen .container .box-log-sign #item1 p {
+    margin: 0rem;
+    padding: 0rem;
+  }
+  body .full-screen .container .box-log-sign #item2 {
+    background: none;
+    display: block;
+    margin: auto;
+    padding: 0rem;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  body .full-screen .container .box-log-sign #item2 p {
+    margin: 0rem;
+    padding: 0rem;
+  }
+  body .full-screen .container .box-log-sign .inner-box-log-sign {
+    background-color: none;
+  }
+  body .full-screen .container .box-log-sign .inner-box-log-sign .inner-box-log-sign-ul {
+    background-color: none;
+    display: block;
+  }
+  body .full-screen .container .box-log-sign .inner-box-log-sign .inner-box-log-sign-ul .inner-box-log-sign-ul-inner-div {
+    background-color: none;
+    margin: 0rem;
+    padding: 0rem;
+  }
+}
+
+* {
+  background-color: none;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+body {
+  background-color: none;
+  background: url("../../images/womanTexting4.jpg") no-repeat;
+  background-size: cover;
+}
+
+.login-form {
+  background: none;
+}
+
+.inside-form {
+  padding: 2rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13%;
+  vertical-align: center;
+}
+
+.inside-form .text-box {
+  height: 3rem;
+}
+
+.inside-form .submit-button {
+  border: solid white 2px;
+}
+
+.inside-form .submit-button:hover {
+  transition-duration: 0.2s;
+  border: #291867;
+  transform: scale(0.95);
+}
+
+.box-log-sign {
+  width: 40%;
+  margin: auto;
+}
+
+.box-log-sign .inner-box-log-sign .inner-box-log-sign-ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-log-sign #item1 {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2rem 6.2rem;
+}
+
+.box-log-sign #item2 {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2rem 6.2rem;
+}
