@@ -2,6 +2,7 @@
 @import 'navbarhome';
 @import 'formStyling';
 @import 'simpleSnippets';
+@import 'errors';
 @media(max-width:60rem) {
     * {
         margin: 0px;
@@ -117,7 +118,7 @@ body {
     background-color: none;
     // background: url('../../images/woman5.jpg') no-repeat;
     background-size: auto;
-    background-color: darken($primary-color, 0%);
+    background-color: darken($primary-color, 10%);
 }
 
 .login-form {
@@ -165,7 +166,7 @@ body {
     }
     #item1 {
         color: white;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 255, 255, 0.05);
         font-family: $font-stack;
         font-size: 20px;
         padding: 3rem;
@@ -175,7 +176,7 @@ body {
     }
     #item2 {
         color: white;
-        background-color: rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 255, 255, 0.05);
         font-family: $font-stack;
         font-size: 20px;
         padding: 3rem;

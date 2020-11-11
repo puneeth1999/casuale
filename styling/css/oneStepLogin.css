@@ -102,6 +102,35 @@
   transform: scale(0.15);
 }
 
+.error-box {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.error-style {
+  display: block;
+  margin: 10px 0px;
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #e28686;
+  transition-duration: 0.3s;
+}
+
+.error-form-div {
+  padding-top: 0rem;
+  margin-top: 0rem;
+  transition-duration: 0.3s;
+}
+
+.p_invisible {
+  display: none;
+  transition-duration: 0.3s;
+}
+
+.removeerrormsg {
+  display: none;
+  transition-duration: 0.3s;
+}
+
 @media (max-width: 60rem) {
   * {
     margin: 0px;
@@ -211,7 +240,7 @@
 body {
   background-color: none;
   background-size: auto;
-  background-color: #291867;
+  background-color: #190e3e;
 }
 
 .login-form {
@@ -263,7 +292,7 @@ body {
 
 .box-log-sign #item1 {
   color: white;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   padding: 3rem;
@@ -274,7 +303,7 @@ body {
 
 .box-log-sign #item2 {
   color: white;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.05);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   padding: 3rem;
