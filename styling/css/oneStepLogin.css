@@ -1,6 +1,6 @@
 .nav-bar {
   display: grid;
-  grid-template-columns: .1fr .6fr .3fr;
+  grid-template-columns: 1fr 6fr 3fr;
   padding: 2rem 15rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -19,9 +19,8 @@
 .nav-bar ul {
   list-style-type: none;
   display: grid;
-  grid-template-columns: 0.35fr 0.5fr 0.4fr;
+  grid-template-columns: 0.5fr;
   margin: 0rem 5rem;
-  margin-right: 2rem;
 }
 
 .nav-bar li {
@@ -49,7 +48,7 @@
 
 .a-special:hover {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.7rem;
   color: #291867;
   transition-duration: 0.2s;
   transform: scale(0.15);
@@ -59,6 +58,12 @@
   display: grid;
   margin: 2rem 6rem;
   margin-top: 4rem;
+}
+
+.inside-form .text-box {
+  height: 3rem;
+  outline: none;
+  font-size: 17px;
 }
 
 .inside-form .text-box {
@@ -91,7 +96,7 @@
 
 .a-special:hover {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.7rem;
   color: #291867;
   transition-duration: 0.2s;
   transform: scale(0.15);
@@ -205,8 +210,8 @@
 
 body {
   background-color: none;
-  background: url("../../images/womanTexting4.jpg") no-repeat;
-  background-size: cover;
+  background-size: auto;
+  background-color: #291867;
 }
 
 .login-form {
@@ -224,6 +229,7 @@ body {
 
 .inside-form .text-box {
   height: 3rem;
+  outline: none;
 }
 
 .inside-form .submit-button {
@@ -247,15 +253,16 @@ body {
 }
 
 .box-log-sign .inner-box-log-sign .inner-box-log-sign-ul {
-  background-color: rgba(255, 255, 255, 0.1);
   list-style-type: none;
   display: grid;
+  gap: 1rem;
   grid-template-columns: 0.5fr 0.5fr;
   width: 90%;
   margin: 0px auto;
 }
 
 .box-log-sign #item1 {
+  color: white;
   background-color: rgba(255, 255, 255, 0.1);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
@@ -263,10 +270,10 @@ body {
   text-align: center;
   display: block;
   margin: auto;
-  border-right: rgba(0, 0, 0, 0.3) 2px solid;
 }
 
 .box-log-sign #item2 {
+  color: white;
   background-color: rgba(255, 255, 255, 0.1);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
@@ -274,5 +281,4 @@ body {
   text-align: center;
   display: block;
   margin: auto;
-  border-left: rgba(0, 0, 0, 0.03) 2px solid;
 }

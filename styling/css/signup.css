@@ -6,7 +6,7 @@
 
 .a-special:hover {
   background-color: white;
-  padding: 0.5rem;
+  padding: 0.7rem;
   color: #291867;
   transition-duration: 0.2s;
   transform: scale(0.15);
@@ -16,6 +16,12 @@
   display: grid;
   margin: 2rem 6rem;
   margin-top: 4rem;
+}
+
+.inside-form .text-box {
+  height: 3rem;
+  outline: none;
+  font-size: 17px;
 }
 
 .inside-form .text-box {
